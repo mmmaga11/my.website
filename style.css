@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+    line-height: 1.6;
+}
+
+.header {
+    background: #2c5aa0;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+.header p {
+    margin: 10px 0 0 0;
+    font-size: 1.1em;
+}
+
+.menu {
+    background: #1e3d6f;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.block {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.block h2 {
+    color: #2c5aa0;
+    margin-top: 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.service {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 200px;
+    border-left: 3px solid #2c5aa0;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.feature {
+    background: #e8f4ff;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.work {
+    background: #f0f7ff;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 180px;
+}
+
+.contacts p {
+    margin: 8px 0;
+    padding: 5px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    background: #2c5aa0;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.button.secondary {
+    background: #6c757d;
+}
+
+.button:hover {
+    background: #1e3d6f;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
